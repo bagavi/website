@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Govinda Kamath | Vivek Bagaria</title>
+    <link>https://web.stanford.edu/~vbagaria/authors/govinda-kamath/</link>
+      <atom:link href="https://web.stanford.edu/~vbagaria/authors/govinda-kamath/index.xml" rel="self" type="application/rss+xml" />
+    <description>Govinda Kamath</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Adaptive Monte-Carlo Optimization</title>
+      <link>https://web.stanford.edu/~vbagaria/publication/amo/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/publication/amo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Medoids in almost linear time via multi-armed bandits</title>
+      <link>https://web.stanford.edu/~vbagaria/publication/meddit/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/publication/meddit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proof-of-Stake Longest Chain Protocols Revisited</title>
+      <link>https://web.stanford.edu/~vbagaria/publication/pos_revisited/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/publication/pos_revisited/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vivek Bagaria</title>
+    <link>https://web.stanford.edu/~vbagaria/authors/vivek/</link>
+      <atom:link href="https://web.stanford.edu/~vbagaria/authors/vivek/index.xml" rel="self" type="application/rss+xml" />
+    <description>Vivek Bagaria</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+  </channel>
+</rss>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 | Vivek Bagaria</title>
+    <link>https://web.stanford.edu/~vbagaria/publication_types/1/</link>
+      <atom:link href="https://web.stanford.edu/~vbagaria/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    <description>1</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://web.stanford.edu/~vbagaria/img/icon-192.png</url>
+      <title>1</title>
+      <link>https://web.stanford.edu/~vbagaria/publication_types/1/</link>
+    </image>
+    
+    <item>
+      <title>Medoids in almost linear time via multi-armed bandits</title>
+      <link>https://web.stanford.edu/~vbagaria/publication/meddit/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/publication/meddit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hidden Hamiltonian Cycle Recovery via Linear Programming</title>
+      <link>https://web.stanford.edu/~vbagaria/publication/hamiltonian_path/</link>
+      <pubDate>Sun, 08 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/publication/hamiltonian_path/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prism: Deconstructing the Blockchain to Approach Physical Limits</title>
+      <link>https://web.stanford.edu/~vbagaria/publication/prism-theory/</link>
+      <pubDate>Mon, 08 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/publication/prism-theory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Online Disjoint Set Cover Problem and its Applications</title>
+      <link>https://web.stanford.edu/~vbagaria/publication/online-disjoin-set-cover/</link>
+      <pubDate>Wed, 05 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/publication/online-disjoin-set-cover/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maximizing Utility Among Selfish Users in Social Groups</title>
+      <link>https://web.stanford.edu/~vbagaria/publication/max_selfish_users/</link>
+      <pubDate>Mon, 30 Sep 2013 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/publication/max_selfish_users/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

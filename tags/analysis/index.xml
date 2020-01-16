@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Analysis | Vivek Bagaria</title>
+    <link>https://web.stanford.edu/~vbagaria/tags/analysis/</link>
+      <atom:link href="https://web.stanford.edu/~vbagaria/tags/analysis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Analysis</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 08 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://web.stanford.edu/~vbagaria/img/icon-192.png</url>
+      <title>Analysis</title>
+      <link>https://web.stanford.edu/~vbagaria/tags/analysis/</link>
+    </image>
+    
+    <item>
+      <title>Hidden Hamiltonian Cycle Recovery via Linear Programming</title>
+      <link>https://web.stanford.edu/~vbagaria/publication/hamiltonian_path/</link>
+      <pubDate>Sun, 08 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/publication/hamiltonian_path/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prism: Deconstructing the Blockchain to Approach Physical Limits</title>
+      <link>https://web.stanford.edu/~vbagaria/publication/prism-theory/</link>
+      <pubDate>Mon, 08 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/publication/prism-theory/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

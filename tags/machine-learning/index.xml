@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Learning | Vivek Bagaria</title>
+    <link>https://web.stanford.edu/~vbagaria/tags/machine-learning/</link>
+      <atom:link href="https://web.stanford.edu/~vbagaria/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Machine Learning</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://web.stanford.edu/~vbagaria/img/icon-192.png</url>
+      <title>Machine Learning</title>
+      <link>https://web.stanford.edu/~vbagaria/tags/machine-learning/</link>
+    </image>
+    
+    <item>
+      <title>Adaptive Monte-Carlo Optimization</title>
+      <link>https://web.stanford.edu/~vbagaria/publication/amo/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/publication/amo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Medoids in almost linear time via multi-armed bandits</title>
+      <link>https://web.stanford.edu/~vbagaria/publication/meddit/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/publication/meddit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hidden Hamiltonian Cycle Recovery via Linear Programming</title>
+      <link>https://web.stanford.edu/~vbagaria/publication/hamiltonian_path/</link>
+      <pubDate>Sun, 08 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/publication/hamiltonian_path/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploring patterns enriched in a dataset with contrastive principal component analysis</title>
+      <link>https://web.stanford.edu/~vbagaria/publication/constrastive/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/publication/constrastive/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

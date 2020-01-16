@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rahul Vaze | Vivek Bagaria</title>
+    <link>https://web.stanford.edu/~vbagaria/authors/rahul-vaze/</link>
+      <atom:link href="https://web.stanford.edu/~vbagaria/authors/rahul-vaze/index.xml" rel="self" type="application/rss+xml" />
+    <description>Rahul Vaze</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 05 Nov 2014 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>The Online Disjoint Set Cover Problem and its Applications</title>
+      <link>https://web.stanford.edu/~vbagaria/publication/online-disjoin-set-cover/</link>
+      <pubDate>Wed, 05 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/publication/online-disjoin-set-cover/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maximizing Utility Among Selfish Users in Social Groups</title>
+      <link>https://web.stanford.edu/~vbagaria/publication/max_selfish_users/</link>
+      <pubDate>Mon, 30 Sep 2013 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/publication/max_selfish_users/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimally Approximating the Coverage Lifetime of Wireless Sensor Networks</title>
+      <link>https://web.stanford.edu/~vbagaria/publication/optimal_sensor_network/</link>
+      <pubDate>Fri, 05 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/publication/optimal_sensor_network/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

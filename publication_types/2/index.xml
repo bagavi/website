@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Vivek Bagaria</title>
+    <link>https://web.stanford.edu/~vbagaria/publication_types/2/</link>
+      <atom:link href="https://web.stanford.edu/~vbagaria/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://web.stanford.edu/~vbagaria/img/icon-192.png</url>
+      <title>2</title>
+      <link>https://web.stanford.edu/~vbagaria/publication_types/2/</link>
+    </image>
+    
+    <item>
+      <title>Exploring patterns enriched in a dataset with contrastive principal component analysis</title>
+      <link>https://web.stanford.edu/~vbagaria/publication/constrastive/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/publication/constrastive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimally Approximating the Coverage Lifetime of Wireless Sensor Networks</title>
+      <link>https://web.stanford.edu/~vbagaria/publication/optimal_sensor_network/</link>
+      <pubDate>Fri, 05 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/publication/optimal_sensor_network/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Softwares | Vivek Bagaria</title>
+    <link>https://web.stanford.edu/~vbagaria/software/</link>
+      <atom:link href="https://web.stanford.edu/~vbagaria/software/index.xml" rel="self" type="application/rss+xml" />
+    <description>Softwares</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://web.stanford.edu/~vbagaria/img/icon-192.png</url>
+      <title>Softwares</title>
+      <link>https://web.stanford.edu/~vbagaria/software/</link>
+    </image>
+    
+    <item>
+      <title>AMO</title>
+      <link>https://web.stanford.edu/~vbagaria/software/amo/</link>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/software/amo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prism</title>
+      <link>https://web.stanford.edu/~vbagaria/software/prism/</link>
+      <pubDate>Fri, 27 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/software/prism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meddit</title>
+      <link>https://web.stanford.edu/~vbagaria/software/meddit/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/software/meddit/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

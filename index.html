@@ -1,0 +1,3883 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.5.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Vivek Bagaria">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Vivek Bagaria. Personal website. Blockchain. Machine Learning.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://web.stanford.edu/~vbagaria/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/~vbagaria/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+  <link rel="alternate" href="/~vbagaria/index.xml" type="application/rss+xml" title="Vivek Bagaria">
+  
+
+  <link rel="manifest" href="/~vbagaria/index.webmanifest">
+  <link rel="icon" type="image/png" href="/~vbagaria/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/~vbagaria/img/icon-192.png">
+
+  <link rel="canonical" href="https://web.stanford.edu/~vbagaria/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@vivek1bagaria">
+  <meta property="twitter:creator" content="@vivek1bagaria">
+  
+  <meta property="og:site_name" content="Vivek Bagaria">
+  <meta property="og:url" content="https://web.stanford.edu/~vbagaria/">
+  <meta property="og:title" content="Vivek Bagaria">
+  <meta property="og:description" content="Vivek Bagaria. Personal website. Blockchain. Machine Learning."><meta property="og:image" content="https://web.stanford.edu/~vbagaria/img/icon-192.png">
+  <meta property="twitter:image" content="https://web.stanford.edu/~vbagaria/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    <meta property="og:updated_time" content="2020-01-01T00:00:00&#43;00:00">
+  
+
+  
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://web.stanford.edu/~vbagaria/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "url": "https://web.stanford.edu/~vbagaria/"
+}
+</script>
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Vivek Bagaria</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/~vbagaria/">Vivek Bagaria</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/~vbagaria/#about" data-target="#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/~vbagaria/#software" data-target="#software"><span>Software</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/~vbagaria/#experience" data-target="#experience"><span>Industry</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/~vbagaria/#featured" data-target="#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/~vbagaria/#talks" data-target="#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/~vbagaria/files/Vivek_CV.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<span class="js-widget-page d-none"></span>
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="about" class="home-section wg-about   "  >
+    <div class="container">
+      
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4">
+    <div id="profile">
+
+      
+      
+      <img class="portrait" src="/~vbagaria/authors/vivek/avatar_hu86c1dcd2bda7949423e730af7856b52e_1011892_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
+      
+
+      <div class="portrait-title">
+        <h2>Vivek Bagaria</h2>
+        <h3>Graduate Student</h3>
+
+        
+        <h3>
+          <a href="https://www.stanford.edu" target="_blank" rel="noopener">
+          <span>Stanford University</span>
+          </a>
+        </h3>
+        
+      </div>
+
+      <ul class="network-icon" aria-hidden="true">
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+        <li>
+          <a href="mailto:vbagaria@stanford.edu" >
+            <i class="fas fa-envelope big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://twitter.com/vivek1bagaria" target="_blank" rel="noopener">
+            <i class="fab fa-twitter big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://scholar.google.co.in/citations?user=0DD8EREAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+            <i class="ai ai-google-scholar big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://github.com/bagavi" target="_blank" rel="noopener">
+            <i class="fab fa-github big-icon"></i>
+          </a>
+        </li>
+        
+      </ul>
+
+    </div>
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+    <h1>Bio</h1>
+
+    <p>I am a final year graduate student at the <a href="http://isl.stanford.edu/" target="_blank">Information Systems Lab</a> at <a href="https://stanford.edu" target="_blank">Stanford</a>, advised by <a href="https://tselab.stanford.edu/" target="_blank">David Tse</a>. I am broadly interested in designing practical algorithms which can scale to large systems. I work in areas of machine learning, high-dimensional statistics, and peer-to-peer protocols. <strong>I am actively looking for jobs in the tech industry</strong>.</p>
+
+<p>In 2018 I worked at Applied Protocol with <a href="https://people.csail.mit.edu/alizadeh/" target="_blank">Mohammad Alizadeh</a>, <a href="http://pramodv.ece.illinois.edu/" target="_blank">Pramod Viswanath</a> among others. In 2017 summer, I worked at <a href="https://www.humanlongevity.com/" target="_blank">Human longevity</a> with <a href="https://www.linkedin.com/in/alena-harley-7700832/" target="_blank">Alena Harley</a> and <a href="http://heckerman.com/david/" target="_blank">David Hackerman</a> where we designed a machine learning pipeline to check if a cancer patient should be administered the <em>KeyTruda</em> drug. Prior to Stanford, I spent one year as a Quantitative Analyst at Goldman Sachs where we built data driven investment strategies based on live financial data. Before that, I graduated with a B.Tech with honors in Electrical Engineering from <a href="https://www.iitm.ac.in/" target="_blank">IIT Madras</a>.</p>
+
+
+    <div class="row">
+
+      
+      <div class="col-md-5">
+        <h3>Interests</h3>
+        <ul class="ul-interests">
+          
+          <li>Machine Learning in high dimensions</li>
+          
+          <li>Design and deploy scalable systems</li>
+          
+        </ul>
+      </div>
+      
+
+      
+      <div class="col-md-7">
+        <h3>Education</h3>
+        <ul class="ul-edu fa-ul">
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">PhD in Electrical Engineering, 2020</p>
+              <p class="institution">Stanford University</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">Masters in Statistics, 2017</p>
+              <p class="institution">Stanford University</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">Bachelors  in Electrical Engineering, 2014</p>
+              <p class="institution">Indian Institute of Technology Madras</p>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="software" class="home-section wg-portfolio   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+
+    <h1>Software</h1>
+    
+
+  </div>
+  <div class="col-xs-12 col-md-8">
+
+
+
+    
+
+    
+
+    <div class="isotope projects-container js-layout-masonry ">
+      
+
+        
+        
+        
+          
+          
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item ">
+  <div class="card">
+    
+    
+    <a href="https://github.com/govinda-kamath/combinatorial_MAB" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/~vbagaria/software/amo/featured_hubcf620fb3b8b7114522f80a0be3cd144_210492_550x0_resize_q90_lanczos_2.png" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="https://github.com/govinda-kamath/combinatorial_MAB" target="_blank" rel="noopener">AMO</a></h4>
+      
+      <div class="article-style">
+        <p>State of the art algorithms for k-nearest neighbour and k-means implemented in C++.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+          
+          
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item ">
+  <div class="card">
+    
+    
+    <a href="https://github.com/yangl1996/prism-rust" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/~vbagaria/software/prism/featured_hu277077d405bd0750b0979cdd086bc580_2647_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="https://github.com/yangl1996/prism-rust" target="_blank" rel="noopener">Prism</a></h4>
+      
+      <div class="article-style">
+        <p>Full-stack rust implementation of Prism acheiving &lsquo;70,000&rsquo; transactions per second with &lsquo;40&rsquo; second latency.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+          
+          
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item ">
+  <div class="card">
+    
+    
+    <a href="https://github.com/bagavi/Meddit/" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/~vbagaria/software/meddit/featured_hua221cab041fe0a392a93f0c9940bfc6a_408533_550x0_resize_q90_lanczos_2.png" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="https://github.com/bagavi/Meddit/" target="_blank" rel="noopener">Meddit</a></h4>
+      
+      <div class="article-style">
+        <p>Scalable medoid computation for high dimensional clustering using multi-armed bandits.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+    </div>
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="experience" class="home-section wg-experience   "  >
+    <div class="container">
+      
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Industry Experience</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+    
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col ">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Part time</h4>
+            <h4 class="card-title exp-company text-muted my-0">Applied Protocol</h4>
+            <div class="text-muted exp-meta">
+              Jun 2018 –
+              
+                Sep 2018
+              
+              
+                <span class="middot-divider"></span>
+                <span>California</span>
+              
+            </div>
+            <div class="card-text">Building scalable blockchain systems:</p>
+
+<ul>
+<li>Understand and design blockchain protocols.</li>
+<li>Analyze their security properties.</li>
+<li>Implement the protocols in rust.
+<br /></li>
+</ul></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Internship</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://www.humanlongevity.com/" target="_blank" rel="noopener">Human Longevity</a></h4>
+            <div class="text-muted exp-meta">
+              Jun 2017 –
+              
+                Sep 2017
+              
+              
+                <span class="middot-divider"></span>
+                <span>California/San Diego</span>
+              
+            </div>
+            <div class="card-text">Diagnose Cancer patients with Microsatellite instability:</p>
+
+<ul>
+<li>Collect 10 TB of genome data.</li>
+<li>Train machine learning classifier to detect MSI.</li>
+<li>Deploy it in the company&rsquo;s product pipeline.
+<br /></li>
+</ul></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Full Time</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://www.goldmansachs.com" target="_blank" rel="noopener">Goldman Sachs</a></h4>
+            <div class="text-muted exp-meta">
+              Jan 2015 –
+              
+                Sep 2015
+              
+              
+                <span class="middot-divider"></span>
+                <span>Bangalore</span>
+              
+            </div>
+            <div class="card-text">Data-driven investment:</p>
+
+<ul>
+<li>Collect, combine and refined live stock prices from multiple resources.</li>
+<li>Implement investment strategies using this refined data.
+<br /></li>
+</ul></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col ">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Internship</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://www.sasken.com/" target="_blank" rel="noopener">Sasken Technlogies</a></h4>
+            <div class="text-muted exp-meta">
+              May 2013 –
+              
+                Sep 2013
+              
+              
+                <span class="middot-divider"></span>
+                <span>Bangalore</span>
+              
+            </div>
+            <div class="card-text">Port Mozilla&rsquo;s Operating System, B2G, on a samsung smart phone.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="featured" class="home-section wg-featured   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Selected Publications</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/~vbagaria/publication/amo/" >Adaptive Monte-Carlo Optimization</a>
+    </h3>
+
+    
+    <div class="article-style">
+      State of the art algorithms for k-nearest neighbors, k-means, hierarchical clustering based on adaptive sampling via multi armed …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+
+
+  
+  <span><a href="/~vbagaria/authors/vivek-bagaria/"><strong>Vivek Bagaria</strong></a></span>, <span><a href="/~vbagaria/authors/govinda-kamath/">Govinda Kamath</a></span>, <span><a href="/~vbagaria/authors/david-tse/">David Tse</a></span>
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/1805.08321" target="_blank" rel="noopener">
+    
+    Preprint
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/govinda-kamath/combinatorial_MAB" target="_blank" rel="noopener">
+    
+    Code
+  </a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/~vbagaria/publication/amo/" >
+      <img src="/~vbagaria/publication/amo/featured_hubcf620fb3b8b7114522f80a0be3cd144_210492_150x0_resize_lanczos_2.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/~vbagaria/publication/meddit/" >Medoids in almost linear time via multi-armed bandits</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Compute the medoid (high dimensional median) for n points in O(n log n) time.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+
+
+  
+  <span><a href="/~vbagaria/authors/vivek-bagaria/"><strong>Vivek Bagaria</strong></a></span>, <span><a href="/~vbagaria/authors/govinda-kamath/">Govinda Kamath</a></span>, <span><a href="/~vbagaria/authors/vasilis-ntranos/">Vasilis ntranos</a></span>, <span><a href="/~vbagaria/authors/martin-zhang/">Martin Zhang</a></span>, <span><a href="/~vbagaria/authors/david-tse/">David Tse</a></span>
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/1711.00817" target="_blank" rel="noopener">
+    
+    AISTATS 2019
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/bagavi/Meddit" target="_blank" rel="noopener">
+    
+    Code
+  </a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/~vbagaria/publication/meddit/" >
+      <img src="/~vbagaria/publication/meddit/featured_hu32aee935e556a874424c2bd159ddf938_140979_150x0_resize_lanczos_2.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/~vbagaria/publication/boomerang/" >Boomerang: Redundancy Improves Latency and Throughput in Payment Networks</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Undisclosed channel balances and mismatched transaction fees cause failures on payment paths. Boomerang is a framework to add risk-free …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+
+
+  
+  <span><a href="/~vbagaria/authors/vivek-bagaria/"><strong>Vivek Bagaria</strong></a></span>, <span><a href="/~vbagaria/authors/joachim-neu/">Joachim Neu</a></span>, <span><a href="/~vbagaria/authors/david-tse/">David Tse</a></span>
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/1910.01834" target="_blank" rel="noopener">
+    
+    Financial Cryptography' 20
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/tse-group/boomerang" target="_blank" rel="noopener">
+    
+    Code
+  </a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/~vbagaria/publication/boomerang/" >
+      <img src="/~vbagaria/publication/boomerang/featured_hu3dee534c2975b1855d1a03c1f292aa4b_80522_150x0_resize_lanczos_2.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/~vbagaria/publication/hamiltonian_path/" >Hidden Hamiltonian Cycle Recovery via Linear Programming</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Average case instance of the traveling salesman problem for a graph with V vertices and E edges can be solved in O(VE) time via LP.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+
+
+  
+  <span><a href="/~vbagaria/authors/vivek-bagaria/"><strong>Vivek Bagaria</strong></a></span>, <span><a href="/~vbagaria/authors/jian-ding/">Jian Ding</a></span>, <span><a href="/~vbagaria/authors/david-tse/">David Tse</a></span>, <span><a href="/~vbagaria/authors/yihoong-wu/">Yihoong Wu</a></span>, <span><a href="/~vbagaria/authors/jiaming-xu/">Jiaming Xu</a></span>
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/1804.05436" target="_blank" rel="noopener">
+    
+    Operations Research 2020
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/bagavi/HiC_LP" target="_blank" rel="noopener">
+    
+    Code
+  </a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/~vbagaria/publication/hamiltonian_path/" >
+      <img src="/~vbagaria/publication/hamiltonian_path/featured_hu1cf1acca66eef7220b1805b3e67fafe4_100593_150x0_resize_lanczos_2.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/~vbagaria/publication/prism-theory/" >Prism: Deconstructing the Blockchain to Approach Physical Limits</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Deconstructing the blockchain into its basic functionalities and systematically scaling up these to acheive optimal security, …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+
+
+  
+  <span><a href="/~vbagaria/authors/vivek-bagaria/"><strong>Vivek Bagaria</strong></a></span>, <span><a href="/~vbagaria/authors/sreeram-kannan/">Sreeram Kannan</a></span>, <span><a href="/~vbagaria/authors/david-tse/">David Tse</a></span>, <span><a href="/~vbagaria/authors/giulia-fanti/">Giulia Fanti</a></span>, <span><a href="/~vbagaria/authors/pramod-viswanath/">Pramod Viswanath</a></span>
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/1810.08092.pdf" target="_blank" rel="noopener">
+    
+    ACM CCS 19
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/yangl1996/prism-rust" target="_blank" rel="noopener">
+    
+    Code
+  </a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/~vbagaria/publication/prism-theory/" >
+      <img src="/~vbagaria/publication/prism-theory/featured_hu5d761eb22a86519de09c0fa13d029f8f_68704_150x0_resize_q90_lanczos.jpg" alt="">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/~vbagaria/publication/optimal_sensor_network/" >Optimally Approximating the Coverage Lifetime of Wireless Sensor Networks</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Formulated maximizing the lifetime of a battery limited sensor network as a maximum disjoint set covers problem and obtained optimal …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+
+
+  
+  <span><a href="/~vbagaria/authors/vivek-bagaria/"><strong>Vivek Bagaria</strong></a></span>, <span><a href="/~vbagaria/authors/ashwin-pananjady/">Ashwin Pananjady</a></span>, <span><a href="/~vbagaria/authors/rahul-vaze/">Rahul Vaze</a></span>
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://dl.acm.org/citation.cfm?id=3068719" target="_blank" rel="noopener">
+    
+    IEEE/ACM Transactions on Networking 2017
+  </a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="publications" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Publications</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+
+    <div class="alert alert-note">
+  <div>
+    <a href="https://web.stanford.edu/~vbagaria/publication/" target="_blank">Filter publications</a>.
+  </div>
+</div>
+
+
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="view-list-item">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  <a href="/~vbagaria/publication/amo/" >Adaptive Monte-Carlo Optimization</a>
+
+  
+
+  
+  <div class="article-metadata">
+    
+
+
+
+  
+  <span><a href="/~vbagaria/authors/vivek-bagaria/"><strong>Vivek Bagaria</strong></a></span>, <span><a href="/~vbagaria/authors/govinda-kamath/">Govinda Kamath</a></span>, <span><a href="/~vbagaria/authors/david-tse/">David Tse</a></span>
+
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/1805.08321" target="_blank" rel="noopener">
+    
+    Preprint
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/govinda-kamath/combinatorial_MAB" target="_blank" rel="noopener">
+    
+    Code
+  </a>
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="view-list-item">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  <a href="/~vbagaria/publication/meddit/" >Medoids in almost linear time via multi-armed bandits</a>
+
+  
+
+  
+  <div class="article-metadata">
+    
+
+
+
+  
+  <span><a href="/~vbagaria/authors/vivek-bagaria/"><strong>Vivek Bagaria</strong></a></span>, <span><a href="/~vbagaria/authors/govinda-kamath/">Govinda Kamath</a></span>, <span><a href="/~vbagaria/authors/vasilis-ntranos/">Vasilis ntranos</a></span>, <span><a href="/~vbagaria/authors/martin-zhang/">Martin Zhang</a></span>, <span><a href="/~vbagaria/authors/david-tse/">David Tse</a></span>
+
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/1711.00817" target="_blank" rel="noopener">
+    
+    AISTATS 2019
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/bagavi/Meddit" target="_blank" rel="noopener">
+    
+    Code
+  </a>
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="view-list-item">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  <a href="/~vbagaria/publication/pos_revisited/" >Proof-of-Stake Longest Chain Protocols Revisited</a>
+
+  
+
+  
+  <div class="article-metadata">
+    
+
+
+
+  
+  <span><a href="/~vbagaria/authors/xuechao-wang/">Xuechao Wang</a></span>, <span><a href="/~vbagaria/authors/govinda-kamath/">Govinda Kamath</a></span>, <span><a href="/~vbagaria/authors/vivek-bagaria/"><strong>Vivek Bagaria</strong></a></span>, <span><a href="/~vbagaria/authors/sreeram-kannan/">Sreeram Kannan</a></span>, <span><a href="/~vbagaria/authors/sewoong-oh/">Sewoong Oh</a></span>, <span><a href="/~vbagaria/authors/david-tse/">David Tse</a></span>, <span><a href="/~vbagaria/authors/pramod-viswanath/">Pramod Viswanath</a></span>
+
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/1910.02218" target="_blank" rel="noopener">
+    
+    Preprint
+  </a>
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="view-list-item">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  <a href="/~vbagaria/publication/prism-systems/" >Prism: Scaling Bitcoin by 10,000x</a>
+
+  
+
+  
+  <div class="article-metadata">
+    
+
+
+
+  
+  <span><a href="/~vbagaria/authors/lei-yang/">Lei Yang</a></span>, <span><a href="/~vbagaria/authors/vivek-bagaria/"><strong>Vivek Bagaria</strong></a></span>, <span><a href="/~vbagaria/authors/gerui-wang/">Gerui Wang</a></span>, <span><a href="/~vbagaria/authors/mohammad-alizadeh/">Mohammad Alizadeh</a></span>, <span><a href="/~vbagaria/authors/david-tse/">David Tse</a></span>, <span><a href="/~vbagaria/authors/giulia-fanti/">Giulia Fanti</a></span>, <span><a href="/~vbagaria/authors/pramod-viswanath/">Pramod Viswanath</a></span>
+
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/1909.11261" target="_blank" rel="noopener">
+    
+    Preprint
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/yangl1996/prism-rust" target="_blank" rel="noopener">
+    
+    Code
+  </a>
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="view-list-item">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  <a href="/~vbagaria/publication/boomerang/" >Boomerang: Redundancy Improves Latency and Throughput in Payment Networks</a>
+
+  
+
+  
+  <div class="article-metadata">
+    
+
+
+
+  
+  <span><a href="/~vbagaria/authors/vivek-bagaria/"><strong>Vivek Bagaria</strong></a></span>, <span><a href="/~vbagaria/authors/joachim-neu/">Joachim Neu</a></span>, <span><a href="/~vbagaria/authors/david-tse/">David Tse</a></span>
+
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/1910.01834" target="_blank" rel="noopener">
+    
+    Financial Cryptography' 20
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/tse-group/boomerang" target="_blank" rel="noopener">
+    
+    Code
+  </a>
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="view-list-item">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  <a href="/~vbagaria/publication/hamiltonian_path/" >Hidden Hamiltonian Cycle Recovery via Linear Programming</a>
+
+  
+
+  
+  <div class="article-metadata">
+    
+
+
+
+  
+  <span><a href="/~vbagaria/authors/vivek-bagaria/"><strong>Vivek Bagaria</strong></a></span>, <span><a href="/~vbagaria/authors/jian-ding/">Jian Ding</a></span>, <span><a href="/~vbagaria/authors/david-tse/">David Tse</a></span>, <span><a href="/~vbagaria/authors/yihoong-wu/">Yihoong Wu</a></span>, <span><a href="/~vbagaria/authors/jiaming-xu/">Jiaming Xu</a></span>
+
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/1804.05436" target="_blank" rel="noopener">
+    
+    Operations Research 2020
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/bagavi/HiC_LP" target="_blank" rel="noopener">
+    
+    Code
+  </a>
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="view-list-item">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  <a href="/~vbagaria/publication/prism-theory/" >Prism: Deconstructing the Blockchain to Approach Physical Limits</a>
+
+  
+
+  
+  <div class="article-metadata">
+    
+
+
+
+  
+  <span><a href="/~vbagaria/authors/vivek-bagaria/"><strong>Vivek Bagaria</strong></a></span>, <span><a href="/~vbagaria/authors/sreeram-kannan/">Sreeram Kannan</a></span>, <span><a href="/~vbagaria/authors/david-tse/">David Tse</a></span>, <span><a href="/~vbagaria/authors/giulia-fanti/">Giulia Fanti</a></span>, <span><a href="/~vbagaria/authors/pramod-viswanath/">Pramod Viswanath</a></span>
+
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/1810.08092.pdf" target="_blank" rel="noopener">
+    
+    ACM CCS 19
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/yangl1996/prism-rust" target="_blank" rel="noopener">
+    
+    Code
+  </a>
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="view-list-item">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  <a href="/~vbagaria/publication/constrastive/" >Exploring patterns enriched in a dataset with contrastive principal component analysis</a>
+
+  
+
+  
+  <div class="article-metadata">
+    
+
+
+
+  
+  <span><a href="/~vbagaria/authors/abubakar-abid/">Abubakar Abid</a></span>, <span><a href="/~vbagaria/authors/martin-zhang/">Martin Zhang</a></span>, <span><a href="/~vbagaria/authors/vivek-bagaria/"><strong>Vivek Bagaria</strong></a></span>, <span><a href="/~vbagaria/authors/james-zou/">James Zou</a></span>
+
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.nature.com/articles/s41467-018-04608-8" target="_blank" rel="noopener">
+    
+    Nature Communication 2017
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/1709.06716" target="_blank" rel="noopener">
+    
+    Arxiv
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/abidlabs/contrastive" target="_blank" rel="noopener">
+    
+    Code
+  </a>
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="view-list-item">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  <a href="/~vbagaria/publication/online-disjoin-set-cover/" >The Online Disjoint Set Cover Problem and its Applications</a>
+
+  
+
+  
+  <div class="article-metadata">
+    
+
+
+
+  
+  <span><a href="/~vbagaria/authors/ashwin-pananjady/">Ashwin Pananjady</a></span>, <span><a href="/~vbagaria/authors/vivek-bagaria/"><strong>Vivek Bagaria</strong></a></span>, <span><a href="/~vbagaria/authors/rahul-vaze/">Rahul Vaze</a></span>
+
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://ieeexplore.ieee.org/abstract/document/7218497" target="_blank" rel="noopener">
+    
+    INFOCOM 2015
+  </a>
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="view-list-item">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  <a href="/~vbagaria/publication/max_selfish_users/" >Maximizing Utility Among Selfish Users in Social Groups</a>
+
+  
+
+  
+  <div class="article-metadata">
+    
+
+
+
+  
+  <span><a href="/~vbagaria/authors/ashwin-pananjady/">Ashwin Pananjady</a></span>, <span><a href="/~vbagaria/authors/vivek-bagaria/"><strong>Vivek Bagaria</strong></a></span>, <span><a href="/~vbagaria/authors/rahul-vaze/">Rahul Vaze</a></span>
+
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://ieeexplore.ieee.org/abstract/document/6811252" target="_blank" rel="noopener">
+    
+    National Conference on Communication 2013
+  </a>
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="view-list-item">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  <a href="/~vbagaria/publication/optimal_sensor_network/" >Optimally Approximating the Coverage Lifetime of Wireless Sensor Networks</a>
+
+  
+
+  
+  <div class="article-metadata">
+    
+
+
+
+  
+  <span><a href="/~vbagaria/authors/vivek-bagaria/"><strong>Vivek Bagaria</strong></a></span>, <span><a href="/~vbagaria/authors/ashwin-pananjady/">Ashwin Pananjady</a></span>, <span><a href="/~vbagaria/authors/rahul-vaze/">Rahul Vaze</a></span>
+
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://dl.acm.org/citation.cfm?id=3068719" target="_blank" rel="noopener">
+    
+    IEEE/ACM Transactions on Networking 2017
+  </a>
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="talks" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Talks</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/~vbagaria/talk/ccs/" >Prism: Deconstructing the Blockchain to Approach Physical Limits</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Deconstructing the blockchain into its basic functionalities and systematically scaling up these to acheive optimal security, …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Nov 12, 2019 4:00 PM &mdash; 5:00 PM
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span>Hilton, ACM CCS</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/~vbagaria/talk/baylearn/" >Adaptive Monte Carlo optimization</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Fast algorithms for k-nearest neighbors, k-means, hierarchical clustering using on adaptive sampling via multi armed bandits.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Oct 10, 2018 4:00 PM &mdash; 5:00 PM
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span>Facebook</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/~vbagaria/talk/iisc_ml/" >Adaptive Monte Carlo optimization</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Fast medoid clustering via multi armed bandits.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Jan 3, 2018 4:00 PM &mdash; 5:00 PM
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span>IISC, India</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/~vbagaria/talk/iisc_hamil/" >Solving traveling salesman in linear time via linear programming</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Fast algorithm to solve traveling salesman problem for practical instances.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Jan 3, 2018 4:00 PM &mdash; 5:00 PM
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span>IISC, India</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="tags" class="home-section wg-tag-cloud   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Topic Mesh</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+
+      
+      
+      
+      
+      
+
+      <div class="tag-cloud">
+        
+          
+          
+          
+          <a href="/~vbagaria/tags/algorithm/" style="font-size:4.6000000000000005rem">Algorithm</a>
+        
+          
+          
+          
+          <a href="/~vbagaria/tags/analysis/" style="font-size:2rem">Analysis</a>
+        
+          
+          
+          
+          <a href="/~vbagaria/tags/bandits/" style="font-size:2rem">Bandits</a>
+        
+          
+          
+          
+          <a href="/~vbagaria/tags/blockchain/" style="font-size:0.7rem">Blockchain</a>
+        
+          
+          
+          
+          <a href="/~vbagaria/tags/c&#43;&#43;/" style="font-size:0.7rem">C&#43;&#43;</a>
+        
+          
+          
+          
+          <a href="/~vbagaria/tags/go/" style="font-size:0.7rem">Go</a>
+        
+          
+          
+          
+          <a href="/~vbagaria/tags/high-dimensions/" style="font-size:2rem">High dimensions</a>
+        
+          
+          
+          
+          <a href="/~vbagaria/tags/high-performance/" style="font-size:0.7rem">High performance</a>
+        
+          
+          
+          
+          <a href="/~vbagaria/tags/machine-learning/" style="font-size:3.3rem">Machine Learning</a>
+        
+          
+          
+          
+          <a href="/~vbagaria/tags/methods/" style="font-size:0.7rem">Methods</a>
+        
+          
+          
+          
+          <a href="/~vbagaria/tags/optimal/" style="font-size:0.7rem">Optimal</a>
+        
+          
+          
+          
+          <a href="/~vbagaria/tags/payment-network/" style="font-size:0.7rem">Payment network</a>
+        
+          
+          
+          
+          <a href="/~vbagaria/tags/proof-of-stake/" style="font-size:0.7rem">Proof of Stake</a>
+        
+          
+          
+          
+          <a href="/~vbagaria/tags/proof-of-work/" style="font-size:0.7rem">Proof of Work</a>
+        
+          
+          
+          
+          <a href="/~vbagaria/tags/protocol/" style="font-size:0.7rem">Protocol</a>
+        
+          
+          
+          
+          <a href="/~vbagaria/tags/python/" style="font-size:2.7604512509375025rem">Python</a>
+        
+          
+          
+          
+          <a href="/~vbagaria/tags/rust/" style="font-size:0.7rem">Rust</a>
+        
+          
+          
+          
+          <a href="/~vbagaria/tags/scalable-systems/" style="font-size:0.7rem">Scalable systems</a>
+        
+          
+          
+          
+          <a href="/~vbagaria/tags/security/" style="font-size:2.7604512509375025rem">Security</a>
+        
+      </div>
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/~vbagaria/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/~vbagaria/js/academic.min.d6bd04fdad2ad213aa8111c5a3b72fc5.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

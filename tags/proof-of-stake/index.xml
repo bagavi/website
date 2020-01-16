@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Proof of Stake | Vivek Bagaria</title>
+    <link>https://web.stanford.edu/~vbagaria/tags/proof-of-stake/</link>
+      <atom:link href="https://web.stanford.edu/~vbagaria/tags/proof-of-stake/index.xml" rel="self" type="application/rss+xml" />
+    <description>Proof of Stake</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://web.stanford.edu/~vbagaria/img/icon-192.png</url>
+      <title>Proof of Stake</title>
+      <link>https://web.stanford.edu/~vbagaria/tags/proof-of-stake/</link>
+    </image>
+    
+    <item>
+      <title>Proof-of-Stake Longest Chain Protocols Revisited</title>
+      <link>https://web.stanford.edu/~vbagaria/publication/pos_revisited/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/publication/pos_revisited/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

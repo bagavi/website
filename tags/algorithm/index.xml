@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algorithm | Vivek Bagaria</title>
+    <link>https://web.stanford.edu/~vbagaria/tags/algorithm/</link>
+      <atom:link href="https://web.stanford.edu/~vbagaria/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <description>Algorithm</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://web.stanford.edu/~vbagaria/img/icon-192.png</url>
+      <title>Algorithm</title>
+      <link>https://web.stanford.edu/~vbagaria/tags/algorithm/</link>
+    </image>
+    
+    <item>
+      <title>Adaptive Monte-Carlo Optimization</title>
+      <link>https://web.stanford.edu/~vbagaria/publication/amo/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/publication/amo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Medoids in almost linear time via multi-armed bandits</title>
+      <link>https://web.stanford.edu/~vbagaria/publication/meddit/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/publication/meddit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proof-of-Stake Longest Chain Protocols Revisited</title>
+      <link>https://web.stanford.edu/~vbagaria/publication/pos_revisited/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/publication/pos_revisited/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hidden Hamiltonian Cycle Recovery via Linear Programming</title>
+      <link>https://web.stanford.edu/~vbagaria/publication/hamiltonian_path/</link>
+      <pubDate>Sun, 08 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/publication/hamiltonian_path/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prism: Deconstructing the Blockchain to Approach Physical Limits</title>
+      <link>https://web.stanford.edu/~vbagaria/publication/prism-theory/</link>
+      <pubDate>Mon, 08 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/publication/prism-theory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Online Disjoint Set Cover Problem and its Applications</title>
+      <link>https://web.stanford.edu/~vbagaria/publication/online-disjoin-set-cover/</link>
+      <pubDate>Wed, 05 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/publication/online-disjoin-set-cover/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maximizing Utility Among Selfish Users in Social Groups</title>
+      <link>https://web.stanford.edu/~vbagaria/publication/max_selfish_users/</link>
+      <pubDate>Mon, 30 Sep 2013 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/publication/max_selfish_users/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimally Approximating the Coverage Lifetime of Wireless Sensor Networks</title>
+      <link>https://web.stanford.edu/~vbagaria/publication/optimal_sensor_network/</link>
+      <pubDate>Fri, 05 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/publication/optimal_sensor_network/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

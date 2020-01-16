@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags | Vivek Bagaria</title>
+    <link>https://web.stanford.edu/~vbagaria/tags/</link>
+      <atom:link href="https://web.stanford.edu/~vbagaria/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://web.stanford.edu/~vbagaria/img/icon-192.png</url>
+      <title>Tags</title>
+      <link>https://web.stanford.edu/~vbagaria/tags/</link>
+    </image>
+    
+    <item>
+      <title>Algorithm</title>
+      <link>https://web.stanford.edu/~vbagaria/tags/algorithm/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/tags/algorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bandits</title>
+      <link>https://web.stanford.edu/~vbagaria/tags/bandits/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/tags/bandits/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C&#43;&#43;</title>
+      <link>https://web.stanford.edu/~vbagaria/tags/c&#43;&#43;/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/tags/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>High dimensions</title>
+      <link>https://web.stanford.edu/~vbagaria/tags/high-dimensions/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/tags/high-dimensions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>https://web.stanford.edu/~vbagaria/tags/machine-learning/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://web.stanford.edu/~vbagaria/tags/python/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proof of Stake</title>
+      <link>https://web.stanford.edu/~vbagaria/tags/proof-of-stake/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/tags/proof-of-stake/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>https://web.stanford.edu/~vbagaria/tags/security/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rust</title>
+      <link>https://web.stanford.edu/~vbagaria/tags/rust/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/tags/rust/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scalable systems</title>
+      <link>https://web.stanford.edu/~vbagaria/tags/scalable-systems/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/tags/scalable-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Go</title>
+      <link>https://web.stanford.edu/~vbagaria/tags/go/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>High performance</title>
+      <link>https://web.stanford.edu/~vbagaria/tags/high-performance/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/tags/high-performance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Payment network</title>
+      <link>https://web.stanford.edu/~vbagaria/tags/payment-network/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/tags/payment-network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Protocol</title>
+      <link>https://web.stanford.edu/~vbagaria/tags/protocol/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/tags/protocol/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analysis</title>
+      <link>https://web.stanford.edu/~vbagaria/tags/analysis/</link>
+      <pubDate>Sun, 08 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/tags/analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blockchain</title>
+      <link>https://web.stanford.edu/~vbagaria/tags/blockchain/</link>
+      <pubDate>Mon, 08 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/tags/blockchain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimal</title>
+      <link>https://web.stanford.edu/~vbagaria/tags/optimal/</link>
+      <pubDate>Mon, 08 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/tags/optimal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proof of Work</title>
+      <link>https://web.stanford.edu/~vbagaria/tags/proof-of-work/</link>
+      <pubDate>Mon, 08 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/tags/proof-of-work/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Methods</title>
+      <link>https://web.stanford.edu/~vbagaria/tags/methods/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://web.stanford.edu/~vbagaria/tags/methods/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
